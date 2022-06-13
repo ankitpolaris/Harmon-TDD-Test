@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5AEB3C028573B3100F72DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AEB3BF28573B3100F72DAF /* AppDelegate.swift */; };
+		C5AEB3C228573B3100F72DAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AEB3C128573B3100F72DAF /* SceneDelegate.swift */; };
+		C5AEB3C428573B3100F72DAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AEB3C328573B3100F72DAF /* ViewController.swift */; };
+		C5AEB3C728573B3100F72DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AEB3C528573B3100F72DAF /* Main.storyboard */; };
+		C5AEB3CA28573B3100F72DAF /* Harmon_TDD_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5AEB3C828573B3100F72DAF /* Harmon_TDD_Test.xcdatamodeld */; };
+		C5AEB3CC28573B3200F72DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AEB3CB28573B3200F72DAF /* Assets.xcassets */; };
+		C5AEB3CF28573B3200F72DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AEB3CD28573B3200F72DAF /* LaunchScreen.storyboard */; };
+		C5AEB3DA28573B3200F72DAF /* Harmon_TDD_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AEB3D928573B3200F72DAF /* Harmon_TDD_TestTests.swift */; };
+		C5AEB3E428573B3200F72DAF /* Harmon_TDD_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AEB3E328573B3200F72DAF /* Harmon_TDD_TestUITests.swift */; };
+		C5AEB3E628573B3200F72DAF /* Harmon_TDD_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AEB3E528573B3200F72DAF /* Harmon_TDD_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5AEB3D628573B3200F72DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AEB3B428573B3100F72DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AEB3BB28573B3100F72DAF;
+			remoteInfo = "Harmon-TDD-Test";
+		};
+		C5AEB3E028573B3200F72DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AEB3B428573B3100F72DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AEB3BB28573B3100F72DAF;
+			remoteInfo = "Harmon-TDD-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5AEB3BC28573B3100F72DAF /* Harmon-TDD-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harmon-TDD-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AEB3BF28573B3100F72DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5AEB3C128573B3100F72DAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5AEB3C328573B3100F72DAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5AEB3C628573B3100F72DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5AEB3C928573B3100F72DAF /* Harmon_TDD_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Harmon_TDD_Test.xcdatamodel; sourceTree = "<group>"; };
+		C5AEB3CB28573B3200F72DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5AEB3CE28573B3200F72DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5AEB3D028573B3200F72DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AEB3D528573B3200F72DAF /* Harmon-TDD-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harmon-TDD-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AEB3D928573B3200F72DAF /* Harmon_TDD_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmon_TDD_TestTests.swift; sourceTree = "<group>"; };
+		C5AEB3DF28573B3200F72DAF /* Harmon-TDD-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harmon-TDD-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AEB3E328573B3200F72DAF /* Harmon_TDD_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmon_TDD_TestUITests.swift; sourceTree = "<group>"; };
+		C5AEB3E528573B3200F72DAF /* Harmon_TDD_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmon_TDD_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5AEB3B928573B3100F72DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AEB3D228573B3200F72DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AEB3DC28573B3200F72DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5AEB3B328573B3100F72DAF = {
+			isa = PBXGroup;
+			children = (
+				C5AEB3BE28573B3100F72DAF /* Harmon-TDD-Test */,
+				C5AEB3D828573B3200F72DAF /* Harmon-TDD-TestTests */,
+				C5AEB3E228573B3200F72DAF /* Harmon-TDD-TestUITests */,
+				C5AEB3BD28573B3100F72DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5AEB3BD28573B3100F72DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEB3BC28573B3100F72DAF /* Harmon-TDD-Test.app */,
+				C5AEB3D528573B3200F72DAF /* Harmon-TDD-TestTests.xctest */,
+				C5AEB3DF28573B3200F72DAF /* Harmon-TDD-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5AEB3BE28573B3100F72DAF /* Harmon-TDD-Test */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEB3BF28573B3100F72DAF /* AppDelegate.swift */,
+				C5AEB3C128573B3100F72DAF /* SceneDelegate.swift */,
+				C5AEB3C328573B3100F72DAF /* ViewController.swift */,
+				C5AEB3C528573B3100F72DAF /* Main.storyboard */,
+				C5AEB3CB28573B3200F72DAF /* Assets.xcassets */,
+				C5AEB3CD28573B3200F72DAF /* LaunchScreen.storyboard */,
+				C5AEB3D028573B3200F72DAF /* Info.plist */,
+				C5AEB3C828573B3100F72DAF /* Harmon_TDD_Test.xcdatamodeld */,
+			);
+			path = "Harmon-TDD-Test";
+			sourceTree = "<group>";
+		};
+		C5AEB3D828573B3200F72DAF /* Harmon-TDD-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEB3D928573B3200F72DAF /* Harmon_TDD_TestTests.swift */,
+			);
+			path = "Harmon-TDD-TestTests";
+			sourceTree = "<group>";
+		};
+		C5AEB3E228573B3200F72DAF /* Harmon-TDD-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEB3E328573B3200F72DAF /* Harmon_TDD_TestUITests.swift */,
+				C5AEB3E528573B3200F72DAF /* Harmon_TDD_TestUITestsLaunchTests.swift */,
+			);
+			path = "Harmon-TDD-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5AEB3BB28573B3100F72DAF /* Harmon-TDD-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AEB3E928573B3200F72DAF /* Build configuration list for PBXNativeTarget "Harmon-TDD-Test" */;
+			buildPhases = (
+				C5AEB3B828573B3100F72DAF /* Sources */,
+				C5AEB3B928573B3100F72DAF /* Frameworks */,
+				C5AEB3BA28573B3100F72DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harmon-TDD-Test";
+			productName = "Harmon-TDD-Test";
+			productReference = C5AEB3BC28573B3100F72DAF /* Harmon-TDD-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5AEB3D428573B3200F72DAF /* Harmon-TDD-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AEB3EC28573B3200F72DAF /* Build configuration list for PBXNativeTarget "Harmon-TDD-TestTests" */;
+			buildPhases = (
+				C5AEB3D128573B3200F72DAF /* Sources */,
+				C5AEB3D228573B3200F72DAF /* Frameworks */,
+				C5AEB3D328573B3200F72DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AEB3D728573B3200F72DAF /* PBXTargetDependency */,
+			);
+			name = "Harmon-TDD-TestTests";
+			productName = "Harmon-TDD-TestTests";
+			productReference = C5AEB3D528573B3200F72DAF /* Harmon-TDD-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5AEB3DE28573B3200F72DAF /* Harmon-TDD-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AEB3EF28573B3200F72DAF /* Build configuration list for PBXNativeTarget "Harmon-TDD-TestUITests" */;
+			buildPhases = (
+				C5AEB3DB28573B3200F72DAF /* Sources */,
+				C5AEB3DC28573B3200F72DAF /* Frameworks */,
+				C5AEB3DD28573B3200F72DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AEB3E128573B3200F72DAF /* PBXTargetDependency */,
+			);
+			name = "Harmon-TDD-TestUITests";
+			productName = "Harmon-TDD-TestUITests";
+			productReference = C5AEB3DF28573B3200F72DAF /* Harmon-TDD-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5AEB3B428573B3100F72DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C5AEB3BB28573B3100F72DAF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C5AEB3D428573B3200F72DAF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C5AEB3BB28573B3100F72DAF;
+					};
+					C5AEB3DE28573B3200F72DAF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C5AEB3BB28573B3100F72DAF;
+					};
+				};
+			};
+			buildConfigurationList = C5AEB3B728573B3100F72DAF /* Build configuration list for PBXProject "Harmon-TDD-Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5AEB3B328573B3100F72DAF;
+			productRefGroup = C5AEB3BD28573B3100F72DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5AEB3BB28573B3100F72DAF /* Harmon-TDD-Test */,
+				C5AEB3D428573B3200F72DAF /* Harmon-TDD-TestTests */,
+				C5AEB3DE28573B3200F72DAF /* Harmon-TDD-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5AEB3BA28573B3100F72DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AEB3CF28573B3200F72DAF /* LaunchScreen.storyboard in Resources */,
+				C5AEB3CC28573B3200F72DAF /* Assets.xcassets in Resources */,
+				C5AEB3C728573B3100F72DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AEB3D328573B3200F72DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AEB3DD28573B3200F72DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5AEB3B828573B3100F72DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AEB3C428573B3100F72DAF /* ViewController.swift in Sources */,
+				C5AEB3C028573B3100F72DAF /* AppDelegate.swift in Sources */,
+				C5AEB3C228573B3100F72DAF /* SceneDelegate.swift in Sources */,
+				C5AEB3CA28573B3100F72DAF /* Harmon_TDD_Test.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AEB3D128573B3200F72DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AEB3DA28573B3200F72DAF /* Harmon_TDD_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AEB3DB28573B3200F72DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AEB3E628573B3200F72DAF /* Harmon_TDD_TestUITestsLaunchTests.swift in Sources */,
+				C5AEB3E428573B3200F72DAF /* Harmon_TDD_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5AEB3D728573B3200F72DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AEB3BB28573B3100F72DAF /* Harmon-TDD-Test */;
+			targetProxy = C5AEB3D628573B3200F72DAF /* PBXContainerItemProxy */;
+		};
+		C5AEB3E128573B3200F72DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AEB3BB28573B3100F72DAF /* Harmon-TDD-Test */;
+			targetProxy = C5AEB3E028573B3200F72DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5AEB3C528573B3100F72DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AEB3C628573B3100F72DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5AEB3CD28573B3200F72DAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AEB3CE28573B3200F72DAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5AEB3E728573B3200F72DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5AEB3E828573B3200F72DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5AEB3EA28573B3200F72DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKHKZLVKC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Harmon-TDD-Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msl.Harmon-TDD-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5AEB3EB28573B3200F72DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKHKZLVKC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Harmon-TDD-Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msl.Harmon-TDD-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5AEB3ED28573B3200F72DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKHKZLVKC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msl.Harmon-TDD-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmon-TDD-Test.app/Harmon-TDD-Test";
+			};
+			name = Debug;
+		};
+		C5AEB3EE28573B3200F72DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKHKZLVKC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msl.Harmon-TDD-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmon-TDD-Test.app/Harmon-TDD-Test";
+			};
+			name = Release;
+		};
+		C5AEB3F028573B3200F72DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKHKZLVKC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msl.Harmon-TDD-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harmon-TDD-Test";
+			};
+			name = Debug;
+		};
+		C5AEB3F128573B3200F72DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKHKZLVKC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msl.Harmon-TDD-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harmon-TDD-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5AEB3B728573B3100F72DAF /* Build configuration list for PBXProject "Harmon-TDD-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AEB3E728573B3200F72DAF /* Debug */,
+				C5AEB3E828573B3200F72DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AEB3E928573B3200F72DAF /* Build configuration list for PBXNativeTarget "Harmon-TDD-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AEB3EA28573B3200F72DAF /* Debug */,
+				C5AEB3EB28573B3200F72DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AEB3EC28573B3200F72DAF /* Build configuration list for PBXNativeTarget "Harmon-TDD-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AEB3ED28573B3200F72DAF /* Debug */,
+				C5AEB3EE28573B3200F72DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AEB3EF28573B3200F72DAF /* Build configuration list for PBXNativeTarget "Harmon-TDD-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AEB3F028573B3200F72DAF /* Debug */,
+				C5AEB3F128573B3200F72DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5AEB3C828573B3100F72DAF /* Harmon_TDD_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5AEB3C928573B3100F72DAF /* Harmon_TDD_Test.xcdatamodel */,
+			);
+			currentVersion = C5AEB3C928573B3100F72DAF /* Harmon_TDD_Test.xcdatamodel */;
+			path = Harmon_TDD_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5AEB3B428573B3100F72DAF /* Project object */;
+}
