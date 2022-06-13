@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
-        stringCalculator.add(numbers: "")
-        
+        let result = stringCalculator.add(numbers: "1,5")
+        print(result)
     }
 
     
@@ -32,11 +32,18 @@ class StringCalculator {
         var sum = 0
         
         if numbers == "" { return 0 }
-         
+        if (numbers.contains(",")) {
+            let tempNumber = numbers.components(separatedBy: ",")
+            let firstNumber = Int(tempNumber[0]) ?? 0
+            let lastNumber = Int(tempNumber[1]) ?? 0
+            sum = firstNumber + lastNumber
+            return sum
+        }
+        else {
+            return Int(numbers) ?? 0
+        }
         
-        
-        return sum
-        
+            
     }
 }
 
