@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
-        let result = stringCalculator.add(numbers: "1,5")
+        let result = stringCalculator.add(numbers: "1/n2,5")
         print(result)
     }
 
@@ -33,11 +33,25 @@ class StringCalculator {
         
         if numbers == "" { return 0 }
         if (numbers.contains(",")) {
-            let tempNumber = numbers.components(separatedBy: ",")
-            let firstNumber = Int(tempNumber[0]) ?? 0
-            let lastNumber = Int(tempNumber[1]) ?? 0
-            sum = firstNumber + lastNumber
-            return sum
+            if (numbers.contains("/n")) {
+                var tempNum = numbers.replacingOccurrences(of: "/n", with: "/")
+                tempNum = tempNum.replacingOccurrences(of: ",", with: "+")
+                let tempNumber = numbers.components(separatedBy: ",")
+//                let firstNumber = Int(tempNumber[0]) ?? 0
+//                let lastNumber = Int(tempNumber[1]) ?? 0
+//                sum = firstNumber + lastNumber
+                let expression = NSExpression(format:"\(tempNum)")
+                let value = expression.expressionValue(with: nil, context: nil) as? Int ?? 0
+                sum = value
+                
+                return sum
+            } else {
+                let tempNumber = numbers.components(separatedBy: ",")
+                let firstNumber = Int(tempNumber[0]) ?? 0
+                let lastNumber = Int(tempNumber[1]) ?? 0
+                sum = firstNumber + lastNumber
+                return sum
+            }
         }
         else {
             return Int(numbers) ?? 0
